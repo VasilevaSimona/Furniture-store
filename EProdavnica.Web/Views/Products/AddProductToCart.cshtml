@@ -1,0 +1,41 @@
+﻿@model EShop.Domain.DTO.AddToShoppingCardDto
+@{
+    ViewData["Title"] = "Add To Shopping Card";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <style>
+        #kopce {
+            margin-left: 120px;
+            justify-content: center;
+            align-items: center;
+            background-color: dimgrey;
+            width: 120px;
+        }
+    </style>
+</head>
+
+<h3 class="text-center">Add Selected Product To Your Shopping Cart:</h3>
+
+<hr />
+
+<div class="row mt-4">
+    <div class="col-md-4 m-auto">
+        <form asp-action="AddProductToCart" method="post">
+            <input type="hidden" asp-for="ProductId" />
+            <div class="form-group">
+                <label asp-for="SelectedProduct.ProductName"></label>
+                <input disabled asp-for="SelectedProduct.ProductName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Quantity"></label>
+                <input asp-for="Quantity" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <input id="kopce" type="submit" value="Save" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>

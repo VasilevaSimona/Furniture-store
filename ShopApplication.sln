@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EShop", "EShop", "{96774AD4-6292-4614-A964-A0673DB47E66}"
+	ProjectSection(SolutionItems) = preProject
+		EProdavnica.Web\Views\Products\AddProductToCard.cshtml = EProdavnica.Web\Views\Products\AddProductToCard.cshtml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EProdavnica.Web", "EProdavnica.Web\EProdavnica.Web.csproj", "{C9B29E76-DF9B-4969-A566-8F9911C233F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShop.Repository", "EShop.Web\EShop.Repository\EShop.Repository.csproj", "{6E5E9BF1-1256-4EDE-BEC8-1FF88DD96170}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShop.Domain", "EShop.Web\EShop.Domain\EShop.Domain.csproj", "{D994818B-71F4-47FC-BD77-072CCDAAFB7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShop.Services", "EShop.Web\EShop.Services\EShop.Services.csproj", "{22CF7185-44F3-42E5-BE9B-930F80978F8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C16C6F3E-DB84-4726-B43F-7B58BB029D81}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{219E2C2F-C8A2-42C4-A614-78A59551E542}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Untitled.png = ..\..\..\Desktop\Untitled.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9B29E76-DF9B-4969-A566-8F9911C233F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B29E76-DF9B-4969-A566-8F9911C233F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B29E76-DF9B-4969-A566-8F9911C233F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B29E76-DF9B-4969-A566-8F9911C233F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5E9BF1-1256-4EDE-BEC8-1FF88DD96170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5E9BF1-1256-4EDE-BEC8-1FF88DD96170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5E9BF1-1256-4EDE-BEC8-1FF88DD96170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5E9BF1-1256-4EDE-BEC8-1FF88DD96170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D994818B-71F4-47FC-BD77-072CCDAAFB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D994818B-71F4-47FC-BD77-072CCDAAFB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D994818B-71F4-47FC-BD77-072CCDAAFB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D994818B-71F4-47FC-BD77-072CCDAAFB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CF7185-44F3-42E5-BE9B-930F80978F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CF7185-44F3-42E5-BE9B-930F80978F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CF7185-44F3-42E5-BE9B-930F80978F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CF7185-44F3-42E5-BE9B-930F80978F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9B29E76-DF9B-4969-A566-8F9911C233F7} = {96774AD4-6292-4614-A964-A0673DB47E66}
+		{6E5E9BF1-1256-4EDE-BEC8-1FF88DD96170} = {96774AD4-6292-4614-A964-A0673DB47E66}
+		{D994818B-71F4-47FC-BD77-072CCDAAFB7B} = {96774AD4-6292-4614-A964-A0673DB47E66}
+		{22CF7185-44F3-42E5-BE9B-930F80978F8D} = {96774AD4-6292-4614-A964-A0673DB47E66}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7457D53D-7CC9-417B-833C-BD64AC8D7CE6}
+	EndGlobalSection
+EndGlobal
